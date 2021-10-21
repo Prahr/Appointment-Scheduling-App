@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="324.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="S2.controller.ContactScheduleController">
+   <children>
+      <TableView fx:id="appointmentTable" layoutY="85.0" prefHeight="239.0" prefWidth="761.0">
+        <columns>
+          <TableColumn fx:id="appointmentId" prefWidth="75.0" text="Appt ID" />
+          <TableColumn fx:id="title" prefWidth="75.0" text="Title" />
+            <TableColumn fx:id="type" prefWidth="75.0" text="Type" />
+            <TableColumn fx:id="description" prefWidth="147.33323669433594" text="Description" />
+            <TableColumn fx:id="start" prefWidth="155.33340454101562" text="Start Time" />
+            <TableColumn fx:id="end" prefWidth="148.0" text="End Time" />
+            <TableColumn fx:id="customerId" prefWidth="80.6666259765625" text="Customer ID" />
+        </columns>
+      </TableView>
+      <Button fx:id="exitButton" layoutX="698.0" layoutY="40.0" mnemonicParsing="false" onAction="#exitClicked" text="Exit" />
+      <Label layoutX="47.0" layoutY="44.0" text="Contact:" />
+      <ComboBox fx:id="contactBox" layoutX="109.0" layoutY="40.0" onAction="#contactClicked" prefWidth="150.0" />
+   </children>
+</AnchorPane>
