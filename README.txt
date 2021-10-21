@@ -1,4 +1,7 @@
-Title: Appointment Management System
+# Appointment Management App
+
+Created using Java, SQL
+
 Purpose: Manage appointments and customers for the company
 Author: Ryan Wachter
 Contact: rwacht4@wgu.edu
