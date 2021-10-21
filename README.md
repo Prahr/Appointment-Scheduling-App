@@ -1,4 +1,4 @@
-# Appointment Management App
+# Appointment Scheduling App
 
 Created using Java, SQL
 
